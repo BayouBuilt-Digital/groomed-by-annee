@@ -1,3 +1,8 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Groomed by Annee</title>
 <meta name="description" content="In-home dog and cat grooming by Annee Smithey, serving Youngsville, Lafayette, Maurice and surrounding areas. One-on-one, gentle, personalized grooming.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -189,7 +194,8 @@ a,button{-webkit-tap-highlight-color:transparent}
   .hero-photo .tag{left:-6px;bottom:14px;padding:8px 12px}
   .hero-photo .tag .hand{font-size:1.25rem}
   .hero .lede{font-size:1.05rem}
-  .cta-row .btn{flex:1 1 100%;min-height:50px}
+  .cta-row{gap:10px}
+  .cta-row .btn,.ways .btn,.mbar .btn{padding:8px 16px;font-size:.88rem;min-height:40px}
   .steps{gap:22px}
   .steps li{grid-template-columns:44px 1fr;column-gap:14px;row-gap:2px}
   .steps li::before{grid-row:1 / 3;width:44px;height:44px;font-size:1.2rem;margin-bottom:0}
@@ -200,13 +206,14 @@ a,button{-webkit-tap-highlight-color:transparent}
   .about .wrap{gap:22px}
   .about img{max-width:260px}
   .contact-card{padding:24px 20px;border-radius:20px}
-  .ways .btn{min-height:50px}
+  .ways{justify-items:start;gap:10px}
+  .num{font-size:1.1rem}
   .pol a,.foot-links a{display:inline-flex;align-items:center;min-height:44px}
   .foot-links{gap:0 22px}
-  .mbar{display:flex;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:20;padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));background:color-mix(in srgb,var(--paper) 94%,transparent);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-top:1px solid var(--line)}
-  .mbar .btn{flex:1;min-height:48px}
+  .mbar{display:flex;justify-content:center;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:20;padding:8px 16px calc(8px + env(safe-area-inset-bottom,0px));background:color-mix(in srgb,var(--paper) 94%,transparent);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-top:1px solid var(--line)}
+  .mbar .btn{flex:0 1 auto;min-width:50%}
   .mbar .btn-ghost{background:var(--card)}
-  footer{padding-bottom:calc(100px + env(safe-area-inset-bottom,0px))}
+  footer{padding-bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 }
 @media (max-width:380px){
   .brand{font-size:1.1rem}
